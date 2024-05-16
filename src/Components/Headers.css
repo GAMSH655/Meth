@@ -1,0 +1,83 @@
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.links{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    text-transform: capitalize;
+}
+.signUpBtn{
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+    border: none;
+    background-color: #A259FF;
+    color: #ffff;
+    margin: 10px;
+}
+.headerIcon{
+ color: #A259FF;
+}
+.logoText{
+    text-transform: capitalize;
+    color: white;
+    padding: 10px;
+    font-size: 2rem;
+}
+.OpenBtn{
+    width: 100;
+    display: none;
+}
+@media only screen and (max-width:768px) {
+    .LinkContainer{
+        display: none;
+    }
+    .mobileHeader{
+        animation-name: slideHeader;
+        animation-duration: .5s;
+        position: absolute;
+        background-color: black;
+        width: 100%;
+        height: 100%;
+    }
+    @keyframes slideHeader {
+        0%{transform: translateX(-50px);}
+    }
+    .Moblinks{
+        display: block;
+        text-decoration: none;
+        color: white;
+        padding: 30px;
+        text-transform: capitalize;
+        font-size: 1.2rem;
+    }
+    .MobsignUpBtn{
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+    border: none;
+    background-color: #A259FF;
+    color: #ffff;
+    margin: 23px;
+    }
+    .logoText{
+        text-transform: capitalize;
+        color: white;
+        padding: 10px;
+        font-size: 1.5rem;
+    }
+    .OpenBtn{
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+    border: none;
+    background-color: #A259FF;
+    color: #ffff;
+    margin: 10px;
+    font-size: 1rem;
+    }
+}

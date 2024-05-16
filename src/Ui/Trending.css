@@ -1,0 +1,22 @@
+.underImg{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+}
+.topImg{
+    width: 70%;
+}
+.GridContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+@media  only screen and (max-width:768px) {
+    .GridContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    } 
+}
