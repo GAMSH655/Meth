@@ -10,7 +10,41 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    margin: 50px;
+}
+.nftNAme{
+     color:white;
+     font-size: 1.2rem;
+     font-weight: bold;
+     text-transform: capitalize;
+}
+.nftArtist{
+    margin: 10px;
+}
+.trending{
+    color:white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 15px;
+}
+.checkout{
+    color:white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 15px;
+}
+.extraInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nftN{
+    margin-top: 5px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
 }
 @media  only screen and (max-width:768px) {
     .GridContainer{
@@ -18,5 +52,23 @@
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
+        text-align: center;
     } 
+    .collectionBox{
+        margin: 10px;
+    }
+    .trending{
+        color:white;
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-transform: capitalize;
+        margin: 20px;
+    }
+    .checkout{
+        color:white;
+        font-size: 1.5rem;
+        font-weight: normal;
+        text-transform: capitalize;
+        margin: 20px;
+    }
 }
