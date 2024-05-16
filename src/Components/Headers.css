@@ -38,7 +38,6 @@
     .mobileHeader{
         animation-name: slideHeader;
         animation-duration: .5s;
-        position: absolute;
         background-color: black;
         width: 100%;
         height: 100%;
