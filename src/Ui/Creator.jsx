@@ -44,11 +44,11 @@ const Creator = () => {
       creatorName:"Mr fox",
       sales: 34.63
     },
-    // {
-    //   creatorImg:Shroomie,
-    //   creatorName:Shroomie,
-    //   sales: 34.63
-    // },
+    {
+      creatorImg:Shroomie,
+      creatorName:Shroomie,
+      sales: 34.63
+    },
     {
         creatorImg:Robot,
         creatorName:"Robotica",
@@ -81,7 +81,7 @@ const Creator = () => {
        <h3 className="top">top Creator</h3>
         <div className="CreatorInnerDiv">
         <p className="chkt">Checkout Top Rated Creators on the NFT Marketplace</p>
-        <button className="RocketBtn" id="topHidden"> <FaRocket className="rkct"/>view ranking</button>
+        <button className="RocketBtn"> <FaRocket className="rkct"/>view ranking</button>
         </div>
          <div className="Grid">
           {
@@ -95,8 +95,8 @@ const Creator = () => {
               </div>
             })
           }
-            <button className="RocketBtn"> <FaRocket className="rkct"/>view ranking</button>
-          </div>Grid
+            <button id="topHidden"> <FaRocket className="rkct"/>view ranking</button>
+          </div>
     </div>
   )
 }
