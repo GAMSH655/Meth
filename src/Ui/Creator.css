@@ -32,3 +32,35 @@ margin: 10px;
     margin-top: 8px;
     margin-right: 5px;
 }
+.Grid{
+    max-width: 50rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4  , 1fr);
+    gap: 2rem;
+    /* place-items: center; */
+}
+.creatorInfoBox{
+    background-color:#3B3B3B;
+    text-align: center;
+    border-radius: 10px;
+}
+.creatorImg{
+    margin: 20px;
+}
+.creatorName{
+    text-align: center;
+    font-weight: normal;
+    font-size: 1rem;
+    color: white;
+    text-transform: capitalize;
+    padding: 10px;
+}
+.sales{
+    text-align: center;
+    font-weight: normal;
+    /* font-size: 1rem; */
+    text-transform: capitalize;
+    color: white;
+    
+}
