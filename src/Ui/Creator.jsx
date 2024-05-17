@@ -44,11 +44,11 @@ const Creator = () => {
       creatorName:"Mr fox",
       sales: 34.63
     },
-    {
-      creatorImg:Shroomie,
-      creatorName:Shroomie,
-      sales: 34.63
-    },
+    // {
+    //   creatorImg:Shroomie,
+    //   creatorName:Shroomie,
+    //   sales: 34.63
+    // },
     {
         creatorImg:Robot,
         creatorName:"Robotica",
@@ -81,19 +81,21 @@ const Creator = () => {
        <h3 className="top">top Creator</h3>
         <div className="CreatorInnerDiv">
         <p className="chkt">Checkout Top Rated Creators on the NFT Marketplace</p>
-        <button className="RocketBtn"> <FaRocket className="rkct"/>view ranking</button>
+        <button className="RocketBtn" id="topHidden"> <FaRocket className="rkct"/>view ranking</button>
         </div>
          <div className="Grid">
           {
             CreatorCOllection.map((creatorInfo , index)=>{
               return <div className="creatorInfoBox" key={index}> 
                 <img src={creatorInfo.creatorImg} alt=""  draggable="false" className="creatorImg"/>
+               <div className="hn"> 
                <p className="creatorName">{creatorInfo.creatorName}</p>
                 <p className="sales">total sales : {creatorInfo.sales} <span>ETH</span></p>
+               </div>
               </div>
-              
             })
           }
+            <button className="RocketBtn"> <FaRocket className="rkct"/>view ranking</button>
           </div>Grid
     </div>
   )
