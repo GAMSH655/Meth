@@ -33,7 +33,7 @@ margin: 10px;
     margin-right: 5px;
 }
 .Grid{
-    /* /* max-width: 50rem; */
+     max-width: 50rem; 
      margin: auto;
     display: grid;
     grid-template-columns: repeat(4  , 1fr);
@@ -81,7 +81,7 @@ span{
     .CreatorInnerDiv{
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        /* align-items: center; */
         flex-wrap: wrap;
     }
     .creatorInfoBox{
@@ -101,6 +101,7 @@ span{
         color: white;
         padding: 10px;
     }
+    
     #topHidden{
         display:block;
         padding: 10px;
@@ -114,5 +115,10 @@ span{
     }
     .RocketBtn{
         display: none;
+    }
+    .creatorImg{
+        margin: 20px;
+        height: 70px;
+        width: 70px
     }
 }
