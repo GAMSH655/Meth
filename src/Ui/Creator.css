@@ -47,8 +47,8 @@ margin: 10px;
 }
 .creatorImg{
     margin: 20px;
-    height: 100px;
-    width: 100px
+    height: 70px;
+    width: 70px
 }
 .creatorName{
     text-align: center;
@@ -91,7 +91,7 @@ span{
         margin: 10px;
     }
     .hn{
-        padding-top: 30px;
+        padding-top: 10px;
     }
     .sales{
         text-align: center;
