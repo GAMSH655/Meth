@@ -1,0 +1,34 @@
+.top{
+color: white;
+font-size: 2rem;
+text-transform: capitalize;
+margin: 10px;
+}
+.chkt{
+color: white;
+font-size: 1.5rem;
+text-transform: capitalize;
+margin: 10px;
+}
+.CreatorInnerDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.RocketBtn{
+    padding: 10px;
+    width: 150px;
+    background-color:transparent;
+   border: 2px solid #A259FF;
+    color: white;
+    outline: none;
+    border-radius: 20px;
+    text-transform: capitalize;
+    margin: 20px;
+    padding: 5px;
+}
+.rkct{
+    color: #A259FF;
+    margin-top: 8px;
+    margin-right: 5px;
+}
