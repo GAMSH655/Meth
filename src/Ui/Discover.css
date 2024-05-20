@@ -16,6 +16,9 @@
     border-radius: 20px;
     padding: 10px;
 }
+.MObil_buttonEYE{
+    display: none;
+}
 .DiscoverInfoBox{
    display: grid;
    grid-template-columns: repeat(3 ,1fr);
@@ -62,6 +65,73 @@ th{
 td{
     padding: 10px;
 }
+.Mushroom{
+    /* background-image: url("../assets//Mushroom.png") , rgba(); */
+    background: linear-gradient(to top ,#A259FF, rgba(255, 105, 180, 0.342) 50%), url("../assets/Mushroom.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.smallBox{
+    display: flex;
+    background-color: #3B3B3B;
+    border-radius: 20px;
+    width: 190px;
+    padding: 15px;
+}
+.shroomieTExt{
+    padding: 8px;
+    padding-left: 20px;
+    color: white;
+    text-transform: capitalize;
+}
+.magic{
+    font-size: 2rem;
+    padding: 8px;
+    padding-left: 20px;
+    color: white;
+    text-transform: capitalize;
+}
+.Mushroom{
+    display: flex;
+    justify-content: space-between;
+    padding: 170px;
+}
+.see{
+    display:block;
+    padding: 10px;
+    background-color:transparent;
+    border: none;
+    outline: none;
+    background-color: white;
+    color:#A259FF;
+    outline: none;
+    border-radius: 20px;
+    text-transform: capitalize;
+    width: 50%;
+}
+.BoxTime{
+    background: rgba(189, 189, 189,0.36);    box-shadow: 0 8px 32px 0 rgba(14, 15, 18, 0.32);    backdrop-filter: blur(4px);    border-radius: 10px;    border: 1px solid rgba(255, 255, 255, 0.06);
+}
+.times{
+    display: flex;
+}
+.auction{
+    color: white;
+    font-weight:normal;
+    padding: 10px;
+}
+.hr{
+    margin: 10px;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+.rs{
+    display: block;
+    text-transform: capitalize;
+    font-size: 1rem;
+}
 @media  only screen and (max-width:768px) {
     .DiscoverInfoBox{
         display: flex;
@@ -75,12 +145,18 @@ td{
         flex-wrap: wrap;
     }
     .buttonEYE{
-        /* background-color: transparent;
-        width: 50%;
-        border: 2px solid #A259FF;
+        display:none;
+        padding: 10px;
+        background-color:transparent;
         color: white;
+        outline: none;
+        border: 2px solid #A259FF;
         border-radius: 20px;
-        padding: 10px; */
+        text-transform: capitalize;
+        width: 90%;
+        margin-left: 20px;
+    }
+    .MObil_buttonEYE{
         display:block;
         padding: 10px;
         background-color:transparent;
@@ -94,5 +170,11 @@ td{
     }
     .flexdiv{
         flex-wrap: wrap;
+    }
+    .Mushroom{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-top: 170px;
     }
 }

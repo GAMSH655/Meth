@@ -7,6 +7,7 @@ import Astronaut from "../assets/Astronaut.png"
 import Moon from "../assets/Moon.png"
 import Nebula from "../assets/Nebula.png"
 import SpaceOne from "../assets/SpaceOne.png"
+import Shroomie from "../assets/Shroomie.png"
 const Discover = () => {
     const DiscoverCollections=[
         {
@@ -64,6 +65,27 @@ const Discover = () => {
                         }) 
                        }
          </div>
+         <button className='MObil_buttonEYE'><FaEye className='eyeIcon'/>see all</button>
+
+         <section className='Mushroom'>
+             
+             <div className="MushroomTextBox">
+                <div className="smallBox">
+                    <img src={Nebula} alt="" />
+                    <p className="shroomieTExt"> Shroomie</p>
+                </div>
+                 <h3 className="magic">magic Mushroom</h3>
+                 <button className="see"> <FaEye/> see nfts</button>
+             </div>
+              <div className="BoxTime">
+                 <h3 className="auction">Auction ends in :</h3>
+                <div className="times">
+                <p className="hr">59:<span className='rs'>hours</span></p>
+                 <p className="hr">59:<span className='rs'>minutes</span></p>
+                 <p className="hr">59 <span className='rs'>seconds</span></p>
+                </div>
+              </div>
+         </section>
         </div>
   )
 }
