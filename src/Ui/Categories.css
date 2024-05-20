@@ -1,21 +1,13 @@
 .browse{
-    margin: 10px;
+    margin: 20px;
     color: white;
     text-transform: capitalize;
     font-size: 2rem;
 }
 .categoriesInnerContainerGrid{
-    /* display: grid;
-    grid-template-columns: repeat(4 , 1fr);
-    place-content: center;
-    margin: 0 auto; */
-     /* max-width: 50rem;  */
-     margin: auto;
+     margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(4  , 1fr);
-    /* row-gap: 2rem; */
-    /* column-gap: 2rem; */
-    
 }
 .categInfo_div{
     background-color:#3B3B3B;

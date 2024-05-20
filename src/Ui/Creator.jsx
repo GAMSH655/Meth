@@ -91,7 +91,7 @@ const Creator = () => {
                 <img src={creatorInfo.creatorImg} alt=""  draggable="false" className="creatorImg"/>
                <div className="hn"> 
                <p className="creatorName">{creatorInfo.creatorName}</p>
-                <p className="sales">total sales : {creatorInfo.sales} <span><FaEthereum /></span></p>
+                <p className="sales">total sales : {creatorInfo.sales} <span className="eth"><FaEthereum /></span></p>
                </div>
               </div>
             })

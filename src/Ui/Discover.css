@@ -1,0 +1,98 @@
+.exploreN{
+    color: white;
+    font-size: 1.5rem;
+    padding: 20px;
+}
+.flexdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttonEYE{
+    background-color: transparent;
+    width: 190px;
+    border: 2px solid #A259FF;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+.DiscoverInfoBox{
+   display: grid;
+   grid-template-columns: repeat(3 ,1fr);
+}
+
+.DiscoverInfoBox11{
+    background-color:#3B3B3B;
+   margin: 10px;
+   border-radius: 20px;
+}
+.DiscoverIMg{
+    width: 100%;
+}
+.eyeIcon{
+   padding-right: 5px;
+   color: #A259FF;
+}
+.DiscoverName{
+    padding-left: 15px;
+    color: wheat;
+}
+.NAAme{
+    display: flex;
+    margin: 10px;
+}
+.DiscoverTitle{
+    color: white;
+    text-transform: capitalize;
+    padding: 9px;
+}
+.DiscoverName{
+    padding-left: 20px;
+    padding-top:5px;
+}
+table{
+    color: white;
+    margin-top:20px ;
+    text-transform: capitalize;
+    border: none;
+}
+th{
+    padding: 5px;
+}
+td{
+    padding: 10px;
+}
+@media  only screen and (max-width:768px) {
+    .DiscoverInfoBox{
+        display: flex;
+        justify-content: center;
+       flex-wrap: wrap;
+       align-items: center;
+     }
+     .NAAme{
+        display: flex;
+        margin: 10px;
+        flex-wrap: wrap;
+    }
+    .buttonEYE{
+        /* background-color: transparent;
+        width: 50%;
+        border: 2px solid #A259FF;
+        color: white;
+        border-radius: 20px;
+        padding: 10px; */
+        display:block;
+        padding: 10px;
+        background-color:transparent;
+        border: 2px solid #A259FF;
+        color: white;
+        outline: none;
+        border-radius: 20px;
+        text-transform: capitalize;
+        width: 90%;
+        margin-left: 20px;
+    }
+    .flexdiv{
+        flex-wrap: wrap;
+    }
+}

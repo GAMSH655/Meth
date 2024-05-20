@@ -6,7 +6,7 @@ import Video from "../assets/Video.png"
 import Ball from "../assets/Ball.png"
 import Utillity from "../assets/Utillity.png"
 import World from "../assets/World.png"
-// import Camera from '../assets/Camera.png  '
+// import Cam from  "../Components/Cam.png "
 import "./Categories.css"
 const Categories = () => {
     const CategoriesCollection= [
@@ -22,10 +22,6 @@ const Categories = () => {
         categoriesImg: Music,
         categoriesName :"Music"
         },
-        // {
-        // categoriesImg: Camera,
-        // categoriesName :"photography"
-        // },
         {
         categoriesImg: Video,
         categoriesName :"Video"
@@ -42,6 +38,10 @@ const Categories = () => {
         categoriesImg:World,
         categoriesName :"virtual world"
         },
+        {
+            categoriesImg:World,
+            categoriesName :"virtual world"  
+        }
     ]
   return (
     <div>
