@@ -67,8 +67,8 @@ const Discover = () => {
          </div>
          <button className='MObil_buttonEYE'><FaEye className='eyeIcon'/>see all</button>
 
-         <section className='Mushroom'>
-             
+         <section className='sect'>
+              <div className='Mushroom'>
              <div className="MushroomTextBox">
                 <div className="smallBox">
                     <img src={Nebula} alt="" />
@@ -85,7 +85,10 @@ const Discover = () => {
                  <p className="hr">59 <span className='rs'>seconds</span></p>
                 </div>
               </div>
+              </div>
+              <button className="seeNone"> <FaEye/> see nfts</button>
          </section>
+       
         </div>
   )
 }

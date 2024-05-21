@@ -65,13 +65,6 @@ th{
 td{
     padding: 10px;
 }
-.Mushroom{
-    /* background-image: url("../assets//Mushroom.png") , rgba(); */
-    background: linear-gradient(to top ,#A259FF, rgba(255, 105, 180, 0.342) 50%), url("../assets/Mushroom.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 .smallBox{
     display: flex;
     background-color: #3B3B3B;
@@ -92,10 +85,17 @@ td{
     color: white;
     text-transform: capitalize;
 }
+.sect{
+    background: linear-gradient(to top ,#A259FF, rgba(255, 105, 180, 0.342) 50%), url("../assets/Mushroom.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 40px;
+    padding: 20px;
+}
 .Mushroom{
     display: flex;
     justify-content: space-between;
-    padding: 170px;
 }
 .see{
     display:block;
@@ -110,8 +110,13 @@ td{
     text-transform: capitalize;
     width: 50%;
 }
+.seeNone{
+    display: none;
+}
 .BoxTime{
     background: rgba(189, 189, 189,0.36);    box-shadow: 0 8px 32px 0 rgba(14, 15, 18, 0.32);    backdrop-filter: blur(4px);    border-radius: 10px;    border: 1px solid rgba(255, 255, 255, 0.06);
+    margin: 50px;
+    width: 290px;
 }
 .times{
     display: flex;
@@ -131,6 +136,10 @@ td{
     display: block;
     text-transform: capitalize;
     font-size: 1rem;
+}
+.MushroomTextBox{
+    margin: 50px;
+    padding: 30px;
 }
 @media  only screen and (max-width:768px) {
     .DiscoverInfoBox{
@@ -174,7 +183,32 @@ td{
     .Mushroom{
         display: flex;
         justify-content: space-between;
+        align-items: center;
         flex-wrap: wrap;
-        padding-top: 170px;
+        padding-top: 0px;
+    }
+    .BoxTime{
+        width: 100%;
+    }
+    .times{
+        text-align: center;
+    }
+    .see{
+        display: none;
+    }
+    .seeNone{
+    display: block;
+    padding: 15px;
+    background-color:transparent;
+    border: none;
+    outline: none;
+    background-color: white;
+    color:#A259FF;
+    outline: none;
+    border-radius: 20px;
+    text-transform: capitalize;
+    width: 80%;
+    margin: 30px;
+    margin-bottom: 70px;
     }
 }
