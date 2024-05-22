@@ -109,17 +109,20 @@ td{
     border-radius: 20px;
     text-transform: capitalize;
     width: 50%;
+    margin: 10PX;
 }
 .seeNone{
     display: none;
 }
 .BoxTime{
     background: rgba(189, 189, 189,0.36);    box-shadow: 0 8px 32px 0 rgba(14, 15, 18, 0.32);    backdrop-filter: blur(4px);    border-radius: 10px;    border: 1px solid rgba(255, 255, 255, 0.06);
-    margin: 50px;
-    width: 290px;
+    margin: 100px;
+   
 }
 .times{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .auction{
     color: white;
@@ -136,6 +139,9 @@ td{
     display: block;
     text-transform: capitalize;
     font-size: 1rem;
+}
+.dot{
+    text-align: center;
 }
 .MushroomTextBox{
     margin: 50px;
@@ -189,6 +195,7 @@ td{
     }
     .BoxTime{
         width: 100%;
+        margin: 50px;
     }
     .times{
         text-align: center;
@@ -210,5 +217,10 @@ td{
     width: 80%;
     margin: 30px;
     margin-bottom: 70px;
+    }
+    .MushroomTextBox{
+        margin: 30px;
+        padding: 30px;
+        color: yellow;
     }
 }

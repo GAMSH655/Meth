@@ -80,9 +80,9 @@ const Discover = () => {
               <div className="BoxTime">
                  <h3 className="auction">Auction ends in :</h3>
                 <div className="times">
-                <p className="hr">59:<span className='rs'>hours</span></p>
-                 <p className="hr">59:<span className='rs'>minutes</span></p>
-                 <p className="hr">59 <span className='rs'>seconds</span></p>
+                <p className="hr">59 <span className="dot"> :</span><span className='rs'>hours</span></p>
+                 <p className="hr">59 <span className="dot"> :</span><span className='rs'>minutes</span></p>
+                 <p className="hr">59  <span className='rs'>seconds</span></p>
                 </div>
               </div>
               </div>
