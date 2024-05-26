@@ -38,11 +38,11 @@ const Trending = () => {
       {
           NftCollections.map((nftInfo , index)=>{
                   return<div className="collectionBox" key={index}>
-                  <img src={nftInfo.nftImg} alt="" className='topImg' />
+                  <img src={nftInfo.nftImg} alt="" className='topImg' draggable='false' />
                   <div className='underflex'>
-                  <img src={nftInfo.nftImg} alt=""  className='underImg'/>
-                  <img src={nftInfo.nftImg} alt=""  className='underImg'/>
-                  <img src={nftInfo.Amount} alt=""  className='underImg'/>
+                  <img src={nftInfo.nftImg} alt=""  className='underImg' draggable='false'/>
+                  <img src={nftInfo.nftImg} alt=""  className='underImg' draggable='false'/>
+                  <img src={nftInfo.Amount} alt=""  className='underImg' draggable='false'/>
                 </div>
                 <p className='nftNAme'>{nftInfo.Nftname}</p>
                    <div className="extraInfo">

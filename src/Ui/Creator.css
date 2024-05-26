@@ -37,13 +37,14 @@ margin: 10px;
      margin: auto;
     display: grid;
     grid-template-columns: repeat(4  , 1fr);
-    row-gap: 2rem;
-    column-gap: 2rem;
+    /* row-gap: 2rem;
+    column-gap: 2rem; */
 }
 .creatorInfoBox{
     background-color:#3B3B3B;
     text-align: center;
     border-radius: 10px;
+    margin: 10px;
 }
 .creatorImg{
     margin: 20px;

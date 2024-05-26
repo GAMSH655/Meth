@@ -32,7 +32,7 @@ const Hero = () => {
            </p>
          </div>
       </div>
-        <img src={NftSpace} alt="" className='HeroImg'/>
+        <img src={NftSpace} alt="" className='HeroImg' draggable='false'/>
       </div>
     </div>
   )

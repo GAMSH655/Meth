@@ -51,7 +51,7 @@ const Categories = () => {
                 {
                     CategoriesCollection.map((categInfo ,index) =>{
                         return <div key={index} className='categInfo_div'>
-                            <img src={categInfo.categoriesImg} className='categoriesImg'/>
+                            <img src={categInfo.categoriesImg} className='categoriesImg' draggable='false'/>
                             <p className='categoriesName'>{categInfo.categoriesName}</p>
                         </div>
                     })
