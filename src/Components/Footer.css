@@ -9,7 +9,7 @@
 }
 
 .footer2{
-    margin-right: 230px;
+    margin-right: 190px;
 }
 .FooterlogoText{
     text-transform: capitalize;
@@ -20,9 +20,6 @@
 .NftP{
     color: #CCCCCC;
     padding: 10px;
-}
-.joinCon{
-    margin: 10px;
 }
 @media only screen and (max-width:768px){
     footer{
