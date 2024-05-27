@@ -1,0 +1,34 @@
+ footer{
+    background-color:#3B3B3B; 
+    display: flex;
+    justify-content: space-evenly;
+    color: #CCCCCC;
+}
+.footer1{
+    margin: 20px;
+}
+
+.footer2{
+    margin-right: 230px;
+}
+.FooterlogoText{
+    text-transform: capitalize;
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+}
+.NftP{
+    color: #CCCCCC;
+    padding: 10px;
+}
+.joinCon{
+    margin: 10px;
+}
+@media only screen and (max-width:768px){
+    footer{
+        background-color:#3B3B3B; 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    } 
+}
