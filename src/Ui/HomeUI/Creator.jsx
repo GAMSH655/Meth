@@ -2,17 +2,17 @@ import "./Creator.css"
 import React from 'react'
 import { FaRocket} from "react-icons/fa"
 import { FaEthereum } from "react-icons/fa";
-import Man from "../assets/MAn.png"
-import Girl from "../assets/GirlNft.png"
-import SecondGirl from "../assets/Girl.png"
-import MarkFace from "../assets/MarkFace.png"
-import Cat from "../assets/Cat.png"
-import Shroomie from "../assets/Shroomie.png"
-import Robot from "../assets/Robot.png"
-import Rusty from "../assets/RustyRobot.png"
-import AnimaKid from "../assets/Animakid.png"
-import Woman from "../assets/Woman.png"
-import ChinaMan from "../assets/ChinaMan.png"
+import Man from "../../assets/Man.png"
+import Girl from  "../../assets/GirlNft.png"
+import SecondGirl from "../../assets/Girl.png"
+import MarkFace from "../../assets/MarkFace.png"
+import Cat from "../../assets/Cat.png"
+import Shroomie from "../../assets/Shroomie.png"
+import Robot from "../../assets/Robot.png"
+import Rusty from "../../assets/RustyRobot.png"
+import AnimaKid from "../../assets/Animakid.png"
+import Woman from "../../assets/Woman.png"
+import ChinaMan from "../../assets/ChinaMan.png"
 const Creator = () => {
   const CreatorCOllection=[
     { 

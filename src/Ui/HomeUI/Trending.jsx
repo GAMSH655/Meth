@@ -1,12 +1,12 @@
 import React from 'react'
 import "./Trending.css"
-import Dog from "../assets/DogNft.png"
-import Mushroom from "../assets/Mushroom.png"
-import Numbers from "../assets/Numbers.png"
-import Robot from "../assets/RobotNft.png"
-import Fox from "../assets/Fox.png"
-import Bettle from "../assets/Bettle.png"
-import Avatar from "../assets/Avatar.png"
+import Dog from "../../assets/DogNft.png"
+import Mushroom from "../../assets/Mushroom.png"
+import Numbers from "../../assets/Numbers.png"
+import Robot from "../../assets/RobotNft.png"
+import Fox from "../../assets/Fox.png"
+import Bettle from "../../assets/Bettle.png"
+import Avatar from "../../assets/Avatar.png"
 const Trending = () => {
     const NftCollections=[
       { nftImg:Dog ,

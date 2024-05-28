@@ -1,7 +1,7 @@
 import React from 'react'
-import NftSpace from "../assets/SpaceN.png"
-import "../Ui/Hero.css"
-import Header from "../Components/Headers"
+import NftSpace from "../../assets/SpaceN.png" 
+import "../HomeUI/Hero.css"
+import Header from "../../Components/Headers"
 import { FaRocket } from 'react-icons/fa'
 const Hero = () => {
   return (

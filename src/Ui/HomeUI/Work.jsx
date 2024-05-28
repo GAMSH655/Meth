@@ -1,9 +1,9 @@
 import React from 'react'
-import "./Work.css"
-import Cart from "../assets/Cart.png"
-import Mus from "../assets/Mus.png"
-import Wallet from "../assets/Wallet.png"
-import Astro from "../assets/Astro.png"
+import "../HomeUI/Work.css"
+import Cart from "../../assets/Cart.png"
+import Mus from "../../assets/Mus.png"
+import Wallet from "../../assets/Wallet.png"
+import Astro from "../../assets/Astro.png"
 import { FaEnvelope } from 'react-icons/fa'
 const Form = () => {
   return (

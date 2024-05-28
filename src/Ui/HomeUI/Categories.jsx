@@ -1,17 +1,17 @@
 import React from 'react'
-import Brush from"../assets/Brush.png"
-import Holder from  "../assets/Holder.png"
-import Music from "../assets/Music.png"
-import Video from "../assets/Video.png"
-import Ball from "../assets/Ball.png"
-import Utillity from "../assets/Utillity.png"
-import World from "../assets/World.png"
+import Brush from "../../assets/Brush.png"
+import Holder from  "../../assets/Holder.png"
+import Music from "../../assets/Music.png"
+import Video from "../../assets/Video.png"
+import Ball from "../../assets/Ball.png"
+import Utillity from "../../assets/Utillity.png"
+import World from "../../assets/World.png"
 // import Cam from  "../Components/Cam.png "
 import "./Categories.css"
 const Categories = () => {
     const CategoriesCollection= [
         {
-        categoriesImg: Brush,
+        categoriesImg:Brush,
         categoriesName :"art"
         }, 
         {
