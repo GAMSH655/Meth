@@ -21,7 +21,7 @@ const Creator = () => {
        sales: 34.63,
     },
     {
-      creatorImg:Guy,
+      creatorImg:MarkFace,
       creatorName:"digilab",
       sales: 34.63,
     },
