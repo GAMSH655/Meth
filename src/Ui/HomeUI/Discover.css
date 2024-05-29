@@ -122,7 +122,6 @@ td{
     background: rgba(189, 189, 189,0.36);    box-shadow: 0 8px 32px 0 rgba(14, 15, 18, 0.32);    backdrop-filter: blur(4px);    border-radius: 10px;    border: 1px solid rgba(255, 255, 255, 0.06);
     margin: 100px;
     width: 30%;
-   
 }
 .innerTimeBox{
     display: flex;
@@ -238,5 +237,9 @@ td{
         margin: 30px;
         padding: 30px;
         color: yellow;
+    }
+    .BoxTime{
+        width: 100%;
+        background-color: red;
     }
 }
