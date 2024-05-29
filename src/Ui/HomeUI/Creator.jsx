@@ -21,7 +21,7 @@ const Creator = () => {
        sales: 34.63,
     },
     {
-      creatorImg:MarkFace,
+      creatorImg:Guy,
       creatorName:"digilab",
       sales: 34.63,
     },
@@ -36,8 +36,7 @@ const Creator = () => {
       sales: 34.63,
     },
     {
-    //  creatorImg:MarkFace,
-      creatorImg:'',
+     creatorImg:MarkFace,
       creatorName:"Bluewhale",
       sales: 34.63
     },
