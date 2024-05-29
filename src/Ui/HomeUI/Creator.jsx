@@ -2,7 +2,7 @@ import "./Creator.css"
 import React from 'react'
 import { FaRocket} from "react-icons/fa"
 import { FaEthereum } from "react-icons/fa";
-import Man from "../../assets/Man.png"
+import Guy from "../../assets/Guy.png"
 import Girl from  "../../assets/GirlNft.png"
 import SecondGirl from "../../assets/Girl.png"
 import MarkFace from "../../assets/MarkFace.png"
@@ -21,8 +21,7 @@ const Creator = () => {
        sales: 34.63,
     },
     {
-      creatorImg:'',
-      // creatorImg:Man,
+      creatorImg:Guy,
       creatorName:"digilab",
       sales: 34.63,
     },
