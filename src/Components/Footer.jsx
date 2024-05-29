@@ -30,7 +30,7 @@ const Footer = () => {
               <div className="buttonFormWork">
               <button className="formBTnSNone"> <FaEnvelope className='envelope'/> suscribe</button>
               </div>
-             </form> 
+             </form>
          </div>
        </footer>
     </div>

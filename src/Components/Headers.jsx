@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Logo from "../assets/logo.png"
+import { NavLink } from 'react-router-dom'
 import "../Components/Headers.css"
 import { FaRegUser   , FaBars , FaTimes} from "react-icons/fa";
 import { CiShop } from "react-icons/ci";
@@ -15,8 +15,8 @@ export const Headers = () => {
            < CiShop  className='headerIcon'/> nft marketplace
         </h3>
             <div className="LinkContainer">
-                 <a href="#" className='links'>marketplace</a>
-                 <a href="#"  className='links'>Ranking</a>
+                 <NavLink to="/" className='links'>marketplace</NavLink>
+                 <NavLink to="/Ranking"  className='links'>Ranking</NavLink>
                  <a href="#"  className='links'>connect  wallet</a>
                  <button className="signUpBtn"> < FaRegUser /> sign up</button>
             </div>
