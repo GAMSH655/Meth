@@ -10,10 +10,21 @@ const Ranking = () => {
          <h3 className="topCrt"> top creator</h3>
          <p className="chekOut"> Check out top ranking NFT artists on the NFT Marketplace.</p>
        </div>
+        <div className="days">
+          <h3>today</h3>
+          <table className='table'>
+                <tr className='TR'>
+                  <th>today</th>
+                  <th>this week</th>
+                  <th>this month</th>
+                  <th>All time</th>
+                </tr>
+              </table>
+        </div>
               <table className='table'>
           <tr>
-            <th>Company</th>
-            <th>Contact</th>
+            <th>Artist</th>
+            <th>Change</th>
             <th>Country</th>
           </tr>
           <tr>

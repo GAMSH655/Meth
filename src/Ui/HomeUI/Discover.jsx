@@ -24,14 +24,14 @@ const Discover = () => {
          <img src={MoonDAncer} alt="" />
          <p className="DiscoverName">Moon Dancer</p>
          </div>
-                <table>
+                <table className='tableDiscover'>
           <tr>
-            <th>Price</th>
-            <th>Highest bid</th>
+            <th className='thDiscover'>Price</th>
+            <th className='thDiscover'>Highest bid</th>
           </tr>
           <tr>
-            <td>1.63 Eth</td>
-            <td>0.33wEth</td>
+            <td className='tdDiscover'>1.63 Eth</td>
+            <td className='tdDiscover'>0.33wEth</td>
           </tr>
         </table>
       </div>
@@ -42,14 +42,14 @@ const Discover = () => {
          <img src={Nebula} alt="" />
          <p className="DiscoverName">Nebula kid</p>
          </div>
-                <table>
+                <table className='tableDiscover'> 
           <tr>
-            <th>Price</th>
-            <th>Highest bid</th>
+            <th className='thDiscover'>Price</th>
+            <th className='thDiscover'>Highest bid</th>
           </tr>
           <tr>
-            <td>1.63 Eth</td>
-            <td>0.33wEth</td>
+            <td className='tdDiscover'>1.63 Eth</td>
+            <td className='tdDiscover'>0.33wEth</td>
           </tr>
         </table>
       </div>
@@ -61,14 +61,14 @@ const Discover = () => {
          <img src={ SpaceOne} alt="" />
          <p className="DiscoverName">Space one</p>
          </div>
-                <table>
+         <table className='tableDiscover'> 
           <tr>
-            <th>Price</th>
-            <th>Highest bid</th>
+            <th className='thDiscover'>Price</th>
+            <th className='thDiscover'>Highest bid</th>
           </tr>
           <tr>
-            <td>1.63 Eth</td>
-            <td>0.33wEth</td>
+            <td className='tdDiscover'>1.63 Eth</td>
+            <td className='tdDiscover'>0.33wEth</td>
           </tr>
         </table>
       </div>

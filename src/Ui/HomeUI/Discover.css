@@ -54,16 +54,16 @@
     padding-left: 20px;
     padding-top:5px;
 }
-table{
+.tableDiscover{
     color: white;
     margin-top:20px ;
     text-transform: capitalize;
     border: none;
 }
- th{
+ .thDiscover{
     padding: 5px;
 }
-td{
+.tdDiscover{
     padding: 10px;
 } 
 .smallBox{
