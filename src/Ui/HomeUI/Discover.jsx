@@ -86,14 +86,14 @@ const Discover = () => {
             <h3 className="magic"> magic mushrooms</h3>
            <button className="see"> <FaEye/> see</button>
            </div>
-           {/* <div className="BoxTime">
+           <div className="BoxTime">
             <p className="auction">auction starts in</p>
              <div className="innerTimeBox">
              <p className="time">00 <span className='time_Parameter'>hours</span></p> <span className="dot">:</span>
              <p className="time">00 <span className='time_Parameter'>minutes</span></p> <span className="dot">:</span>
             <p className="time">00 <span className='time_Parameter'>seconds</span></p>
              </div>
-           </div> */}
+           </div>
        </div>
         </div>
         <button className="MObil_buttonEYE"> <FaEye className='eyeIcon'/> see all </button>
