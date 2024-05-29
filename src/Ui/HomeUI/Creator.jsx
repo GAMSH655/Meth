@@ -5,7 +5,7 @@ import { FaEthereum } from "react-icons/fa";
 import Man from "@/assets/Man.png"
 import Girl from  "../../assets/GirlNft.png"
 import SecondGirl from "../../assets/Girl.png"
-import MarkFace from "../../assets/MarkFace.png"
+//import MarkFace from "../../assets/MarkFace.png"
 import Cat from "../../assets/Cat.png"
 import Shroomie from "../../assets/Shroomie.png"
 import Robot from "../../assets/Robot.png"
@@ -36,7 +36,8 @@ const Creator = () => {
       sales: 34.63,
     },
     {
-      creatorImg:MarkFace,
+    //  creatorImg:MarkFace,
+      creatorImg:'',
       creatorName:"Bluewhale",
       sales: 34.63
     },
