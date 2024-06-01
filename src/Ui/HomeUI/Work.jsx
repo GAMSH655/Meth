@@ -34,8 +34,7 @@ const Form = () => {
            </div>
         </div>
         <div className="formCont">
-           <img src={Astro} alt="" className='workImg' />
-           <div className="FormAside">
+           <img src={Astro} alt="" className='workImg' /><div className="FormAside">
              <h3 className="formTtile">join our weekly digest</h3>
              <p className="formP">Get exclusive promotions & updates <br />  straight to your inbox.</p>
              <form action="" className='formWork'>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React  , {useState , useEffect}from 'react'
 import "../HomeUI/Discover.css"
 import { FaEye } from 'react-icons/fa'
 import Avatar from "../../assets/Avatar.png"
@@ -8,7 +8,27 @@ import  Sky from  "../../assets/Sky.png"
 import MoonDAncer from "../../assets/Moon.png"
 import Nebula from "../../assets/Nebula.png"
 import SpaceOne from "../../assets/SpaceOne.png"
+
+const CountDown_Target = new Date("2026-06-31T23:59:59");
+const getTimeLeft = () =>{
+  const totalTimeLeft = CountDown_Target - new Date();
+    const days =  Math.floor( totalTimeLeft/(1000 * 60 * 60 * 24));
+    const hours =  Math.floor( totalTimeLeft/(1000 * 60 * 60 ) % 24);
+    const minutes =  Math.floor( totalTimeLeft/(1000 * 60 * 60 ) % 60);
+    const seconds =  Math.floor( totalTimeLeft/(1000) % 60)
+
+    return{days , hours , minutes , seconds};
+}
 const Discover = () => {
+  const [timeLeft , setTimeLetf] = useState(()=>getTimeLeft());
+  useEffect(()=>{
+    const timer = setInterval(()=>{
+      setTimeLetf(getTimeLeft())
+    }, 1000) 
+     return()=>{
+      clearInterval(timer)
+     }
+  } , [])
   return (
     <div>
     <h3 className="exploreN"> Explore NFTs</h3>
@@ -88,16 +108,25 @@ const Discover = () => {
            </div>
            <div className="BoxTime">
             <p className="auction">auction starts in</p>
-             <div className="innerTimeBox">
-             <p className="time">00 <span className='time_Parameter'>hours</span></p> <span className="dot">:</span>
-             <p className="time">00 <span className='time_Parameter'>minutes</span></p> <span className="dot">:</span>
-            <p className="time">00 <span className='time_Parameter'>seconds</span></p>
-             </div>
+              {Object.entries(timeLeft).map(el =>{
+                const label = el [0];
+                const value = el [1]
+                return <div className="innerTimeBox2">
+                <p className="time">{value}<span className='time_Parameter'>{label}</span> 
+                </p> 
+                </div>
+              })}
            </div>
        </div>
         </div>
         <button className="MObil_buttonEYE"> <FaEye className='eyeIcon'/> see all </button>
     </div>
+  //   <div className="innerTimeBox">
+  //   <p className="time">{timeLeft.days} <span className='time_Parameter'>days</span></p> <span className="dot">:</span>
+  //   <p className="time">{timeLeft.hours}<span className='time_Parameter'>hours</span></p> <span className="dot">:</span>
+  //   <p className="time">{timeLeft.minutes}<span className='time_Parameter'>minutes</span></p> <span className="dot">:</span>
+  //  <p className="time">{timeLeft.hours} <span className='time_Parameter'>seconds</span></p>
+  //   </div>
   )
 }
 
