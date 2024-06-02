@@ -32,9 +32,11 @@ export const Headers = () => {
                 <div className="Mobile_Link_Container">
               <NavLink to="/" className='Moblinks'>marketplace</NavLink>
               <NavLink to="/Ranking" className='Moblinks'>Ranking</NavLink>
-              <a href="#"  className='Moblinks'>connect  wallet</a>
-              <button className="MobsignUpBtn"> < FaRegUser />  <NavLink to="/Ranking" className='Moblinks'>sign up</NavLink></button>
+              <a href="#"  className='Moblinks'>connect  wallet</a  >
              </div>
+             <button className="MobsignUpBtn">
+                   < FaRegUser />  <NavLink to="/CreateAccount"  className='links'>  sign up</NavLink>
+                  </button>
                </div>
             )
            }

@@ -24,7 +24,21 @@
 .joinCon{
     margin: 10px;
 }
-
+.formBTnFooter{
+    padding: 10px;
+    height: 40px;
+    background-color:#A259FF;
+    width: 180px;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    text-transform: capitalize;
+    margin-right:13px;
+    position: absolute;
+    right: 120px;
+    margin-top: 10px;
+} 
 @media only screen and (max-width:768px){
     footer{
         background-color:#3B3B3B; 
@@ -32,4 +46,7 @@
         flex-wrap: wrap;
         justify-content: space-evenly;
     } 
+    .formBTnFooter{
+        display: none;
+    }
 }

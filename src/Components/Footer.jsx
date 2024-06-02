@@ -25,7 +25,7 @@ const Footer = () => {
          <p className="NftP">Get exclusive promotions & updates straight to your inbox.</p>
          <form action="" className='formWork'>
              <input type="text"  placeholder='enter your mail here ' className='WorkInput'/>
-             <button className="formBTnShow"> <FaEnvelope className='envelope'/> suscribe</button>
+             <button className="formBTnFooter"> <FaEnvelope className='envelope'/> suscribe</button>
              <br /><br />
               <div className="buttonFormWork">
               <button className="formBTnSNone"> <FaEnvelope className='envelope'/> suscribe</button>
