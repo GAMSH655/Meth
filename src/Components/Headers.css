@@ -12,7 +12,7 @@
 .signUpBtn{
     padding: 10px;
     border-radius: 10px;
-    width: 100px;
+    width: 150px;
     border: none;
     background-color: #A259FF;
     color: #ffff;
@@ -78,5 +78,14 @@
     color: #ffff;
     margin: 10px;
     font-size: 1rem;
+    }
+    .signUpBtn{
+        padding: 10px;
+        border-radius: 10px;
+        width: 250px;
+        border: none;
+        background-color: #A259FF;
+        color: #ffff;
+        margin: 10px;
     }
 }

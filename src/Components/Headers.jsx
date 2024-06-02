@@ -18,7 +18,9 @@ export const Headers = () => {
                  <NavLink to="/" className='links'>marketplace</NavLink>
                  <NavLink to="/Ranking"  className='links'>Ranking</NavLink>
                  <a href="#"  className='links'>connect  wallet</a>
-                 <button className="signUpBtn"> < FaRegUser /> sign up</button>
+                 <button className="signUpBtn">
+                   < FaRegUser />  <NavLink to="/CreateAccount"  className='links'>  sign up</NavLink>
+                  </button>
             </div>
             <button className="OpenBtn" onClick={HandleOpenMenu}>{open ?   <FaTimes/>:<FaBars/> }</button>
         </div>
@@ -31,7 +33,7 @@ export const Headers = () => {
               <NavLink to="/" className='Moblinks'>marketplace</NavLink>
               <NavLink to="/Ranking" className='Moblinks'>Ranking</NavLink>
               <a href="#"  className='Moblinks'>connect  wallet</a>
-              <button className="MobsignUpBtn"> < FaRegUser /> sign up</button>
+              <button className="MobsignUpBtn"> < FaRegUser />  <NavLink to="/Ranking" className='Moblinks'>sign up</NavLink></button>
              </div>
                </div>
             )
