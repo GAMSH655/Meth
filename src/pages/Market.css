@@ -1,0 +1,58 @@
+.browse{
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: white;
+    text-transform: capitalize;
+    text-transform: capitalize;
+}
+.browseP{
+    color:white;
+    font-size: 1.5rem;
+    padding: 15px;
+}
+.market_search_Input{
+width: 100%;
+padding: 10px;
+background-color: transparent;
+border: 1.5px solid black;
+padding: 20px;
+margin: 22px;
+border-radius: 22px;
+}
+.mertktTextBox{
+    margin: 50px;
+}
+.flexNumber{
+    display: flex;
+    justify-content: space-evenly;
+}
+.numP{
+    color:whites;
+    text-transform: capitalize;
+    font-size: 2rem;
+    border-bottom: solid 3px white;
+    width: 190px;
+    text-align: center;
+    width: 250px;
+    margin: 13px;
+    padding: 20px;
+    color: white;
+}
+.numspan{
+    font-size: 1rem;
+    color:white;
+    background-color: #858584;
+    border-radius: 50%;
+    padding: 9px;
+}
+.numP2{
+    color:whites;
+    text-transform: capitalize;
+    font-size: 2rem;
+    width: 190px;
+    text-align: center;
+    width: 250px;
+    margin: 13px;
+    padding: 20px;
+    color: white;
+}

@@ -121,12 +121,6 @@ const Discover = () => {
         </div>
         <button className="MObil_buttonEYE"> <FaEye className='eyeIcon'/> see all </button>
     </div>
-  //   <div className="innerTimeBox">
-  //   <p className="time">{timeLeft.days} <span className='time_Parameter'>days</span></p> <span className="dot">:</span>
-  //   <p className="time">{timeLeft.hours}<span className='time_Parameter'>hours</span></p> <span className="dot">:</span>
-  //   <p className="time">{timeLeft.minutes}<span className='time_Parameter'>minutes</span></p> <span className="dot">:</span>
-  //  <p className="time">{timeLeft.hours} <span className='time_Parameter'>seconds</span></p>
-  //   </div>
   )
 }
 

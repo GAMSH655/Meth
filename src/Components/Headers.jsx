@@ -15,8 +15,10 @@ export const Headers = () => {
            < CiShop  className='headerIcon'/> nft marketplace
         </h3>
             <div className="LinkContainer">
-                 <NavLink to="/" className='links'>marketplace</NavLink>
+                 <NavLink to="/" className='links'>Home</NavLink>
                  <NavLink to="/Ranking"  className='links'>Ranking</NavLink>
+                 <NavLink to="/MarketPlace"  className='links'>Marketplace</NavLink>
+                 
                  <a href="#"  className='links'>connect  wallet</a>
                  <button className="signUpBtn">
                    < FaRegUser />  <NavLink to="/CreateAccount"  className='links'>  sign up</NavLink>
@@ -35,7 +37,7 @@ export const Headers = () => {
               <a href="#"  className='Moblinks'>connect  wallet</a  >
              </div>
              <button className="MobsignUpBtn">
-                   < FaRegUser />  <NavLink to="/CreateAccount"  className='links'>  sign up</NavLink>
+              < FaRegUser />  <NavLink to="/CreateAccount"  className='links'>  sign up</NavLink>
                   </button>
                </div>
             )
