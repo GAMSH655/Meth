@@ -35,6 +35,13 @@
     .LinkContainer{
         display: none;
     }
+    .logoText{
+        text-transform: capitalize;
+        color: white;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: normal;
+    }
     .mobileHeader{
         animation-name: slideHeader;
         animation-duration: .5s;
