@@ -32,8 +32,9 @@ export const Headers = () => {
             open && (
                <div className="mobileHeader">
                 <div className="Mobile_Link_Container">
-              <NavLink to="/" className='Moblinks'>marketplace</NavLink>
+              <NavLink to="/" className='Moblinks'>Home</NavLink>
               <NavLink to="/Ranking" className='Moblinks'>Ranking</NavLink>
+              <NavLink to="/marketplace"  className='Moblinks'>market place</NavLink>
               <a href="#"  className='Moblinks'>connect  wallet</a  >
              </div>
              <button className="MobsignUpBtn">
