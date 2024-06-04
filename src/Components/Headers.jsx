@@ -18,8 +18,7 @@ export const Headers = () => {
                  <NavLink to="/" className='links'>Home</NavLink>
                  <NavLink to="/Ranking"  className='links'>Ranking</NavLink>
                  <NavLink to="/MarketPlace"  className='links'>Marketplace</NavLink>
-                 
-                 <a href="#"  className='links'>connect  wallet</a>
+                 <NavLink to="/ConnectWallet"  className='links'>Connect Wallet</NavLink>
                  <button className="signUpBtn">
                    < FaRegUser />  <NavLink to="/CreateAccount"  className='links'>  sign up</NavLink>
                   </button>
@@ -35,6 +34,7 @@ export const Headers = () => {
               <NavLink to="/" className='Moblinks'>Home</NavLink>
               <NavLink to="/Ranking" className='Moblinks'>Ranking</NavLink>
               <NavLink to="/marketplace"  className='Moblinks'>market place</NavLink>
+              <NavLink to="/connectwallet"  className='Moblinks'>market place</NavLink>
               <a href="#"  className='Moblinks'>connect  wallet</a  >
              </div>
              <button className="MobsignUpBtn">

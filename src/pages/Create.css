@@ -25,6 +25,8 @@
     text-transform: capitalize;
     border: none;
     background-color: transparent;
+    width: 100%;
+    border-radius: 20px;
 }
 .Form1{
     display: flex;
