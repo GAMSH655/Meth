@@ -117,4 +117,11 @@
            border-radius: 20px;
            text-transform: capitalize;
     }
-}
+    .create{
+        color: white;
+        font-size: 2.5rem;
+        text-transform: capitalize;
+        /* margin: 10px; */
+    }
+    
+} 

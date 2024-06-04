@@ -3,3 +3,35 @@
     justify-content: space-evenly;
     margin: 50px;
 }
+.ConnectImg {
+    width: 100%;
+}
+.ConnectTextContainer{
+margin: 30px;
+}
+.CoinProvider{
+    display: flex;
+    border: 1.5px solid #A259FF;
+    margin: 15px;
+    border-radius: 25px;
+}
+.providerName{
+    margin: 20px;
+    color: white;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+ .coinImg{
+    margin: 10px;
+}
+@media only screen  and (max-width:768px){
+    .connectParentDiv{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin: 0px;
+    }
+    .ConnectTextContainer{
+     margin:25px;
+    }
+}
