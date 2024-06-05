@@ -31,7 +31,9 @@
 .textBox{
 display: flex;
 justify-content: space-between;
+align-items: center;
 margin: 20px;
+
 }
 .heroText_span{
     display: block;

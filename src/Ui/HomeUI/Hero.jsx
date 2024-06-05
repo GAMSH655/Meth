@@ -1,5 +1,7 @@
 import React from 'react'
 import NftSpace from "../../assets/SpaceN.png" 
+import SkyLone from "../../assets/Lonely.png"
+import Shrm from "../../assets/Fox.png"
 import "../HomeUI/Hero.css"
 import Header from "../../Components/Headers"
 import { FaRocket } from 'react-icons/fa'
@@ -32,7 +34,14 @@ const Hero = () => {
            </p>
          </div>
       </div>
-        <img src={NftSpace} alt="" className='HeroImg' draggable='false'/>
+        {/* <img src={NftSpace} alt="" className='HeroImg' draggable='false'/> */}
+         <div className='DiscoverInfoBox11'>
+           <img src={SkyLone} alt="" className='DiscoverIMg' />
+           <div className="NAAme">
+             <img src={Shrm} alt="" />
+             <p className="DiscoverName">Moon Dancer</p>
+           </div>
+         </div>
       </div>
     </div>
   )
