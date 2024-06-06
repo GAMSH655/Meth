@@ -132,7 +132,6 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    background-color: red;
 }
 .time_Parameter{
     display: block;
@@ -245,6 +244,9 @@
         color: yellow;
     }
     .BoxTime{
+        width: 100%;
+    }
+    .DiscoverInfoBox11{
         width: 100%;
     }
 }

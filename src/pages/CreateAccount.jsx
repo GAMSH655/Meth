@@ -13,9 +13,7 @@ const CreateAccount = () => {
          <img src={FormImg } alt=""  className='formImg'/>
          <div className="formDiv">
               <h3 className="create">create account</h3>
-              <p className="welcome">Welcome! enter your details and start  
-            </p>
-            <p className="welcome">creating, collecting and selling NFTs.</p>
+              <p className="welcome">Welcome! enter your details and start creating, collecting and selling NFTs.  </p>
               <form action="" className='fromPArent'>
                 <div className="Form1">
                  <span>  <FaUser className='fromIcon'/> </span> <input type="text" placeholder='username'  className='RegForm'/>

@@ -91,9 +91,7 @@ margin: 10px;
         border-radius: 25px;
         margin: 10px;
     }
-    .hn{
-        padding-top: 10px;
-    }
+    
     .sales{
         text-align: center;
         font-weight: normal;
@@ -118,8 +116,13 @@ margin: 10px;
         display: none;
     }
     .creatorImg{
-        margin: 20px;
-        height: 70px;
-        width: 70px
+        /* margin: 20px; */
+        height: 40px;
+        width: 40px
+    }
+    .creatorInfoBox{
+        display: flex;
+        justify-content:space-evenly;
+        height: 75px;
     }
 }

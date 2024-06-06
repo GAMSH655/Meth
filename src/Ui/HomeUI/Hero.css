@@ -8,6 +8,9 @@
 .heroText{
     color:white;
     font-size: 1rem;
+    line-height: 30px;
+    text-wrap:balance ;
+    margin: 20px;
 }
 .timeBox{
     display: flex;
@@ -39,10 +42,7 @@ margin: 20px;
     display: block;
     margin: 10px;
     margin-left: 20px;
-}
-.HeroImg{
-    height: 500px;
-    width: 500px;
+  
 }
 .get_Started_Btn{
     padding: 10px;
@@ -58,10 +58,17 @@ margin: 20px;
 .Rocket{
     padding-top: 2px;
 }
+.HeroInfoBox11{
+    width: 50%;
+    background-color:#3B3B3B;
+    margin: 10px;
+    border-radius: 20px;
+}
 @media only screen and (max-width:768px){
     .textBox{
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
         flex-wrap: wrap;
         margin: 20px;
         
@@ -88,5 +95,8 @@ margin: 20px;
         }
         .timeBox{
             text-align: center;
+        }
+        .HeroInfoBox11{
+            width: 100%;
         }
 }

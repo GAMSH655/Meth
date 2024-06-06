@@ -15,9 +15,9 @@ const Hero = () => {
          <h3 className="dig">digital arts and </h3>
          <h3 className="collect"> collect Nfts </h3>
          <p className="heroText">
-         <span className='heroText_span'> NFT marketplace UI created with Anima </span>
-         <span  className='heroText_span'>for Figma. Collect, buy and sell art from</span>
-         <span  className='heroText_span'>more than 20k NFT artists.</span>
+         NFT marketplace UI created with Anima
+         for Figma. Collect, buy and sell art from
+        more than 20k NFT artists.
          </p>
            <div className="buttonCont">
            <button className="get_Started_Btn"> <FaRocket className='Rocket'/> get started </button>
@@ -35,8 +35,8 @@ const Hero = () => {
          </div>
       </div>
         {/* <img src={NftSpace} alt="" className='HeroImg' draggable='false'/> */}
-         <div className='DiscoverInfoBox11'>
-           <img src={SkyLone} alt="" className='DiscoverIMg' />
+         <div className='HeroInfoBox11'>
+           <img src={SkyLone} alt="" className='DiscoverIMg'draggable='false' downloadable="false" />
            <div className="NAAme">
              <img src={Shrm} alt="" />
              <p className="DiscoverName">Moon Dancer</p>
