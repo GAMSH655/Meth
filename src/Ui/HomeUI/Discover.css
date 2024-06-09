@@ -119,7 +119,11 @@
     display: none;
 }
 .OuterTimerBox{
-    background: rgba(189, 189, 189,0.36);    box-shadow: 0 8px 32px 0 rgba(14, 15, 18, 0.32);    backdrop-filter: blur(4px);    border-radius: 10px;    border: 1px solid rgba(255, 255, 255, 0.06);
+    background: rgba(189, 189, 189,0.36); 
+    box-shadow: 0 8px 32px 0 rgba(14, 15, 18, 0.32);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.06);
     margin: 100px;
     width: 30%;
 }
@@ -199,13 +203,6 @@
         flex-wrap: wrap;
         padding-top: 0px;
     }
-    .BoxTime{
-        width: 100%;
-        margin: 50px;
-    }
-    .times{
-        text-align: center;
-    }
     .see{
         display: none;
     }
@@ -233,6 +230,15 @@
         width: 100%;
     }
     .DiscoverInfoBox11{
+        width: 100%;
+    }
+    .OuterTimerBox{
+        background: rgba(189, 189, 189,0.36); 
+        box-shadow: 0 8px 32px 0 rgba(14, 15, 18, 0.32);
+        backdrop-filter: blur(4px);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.06);
+        margin: 0px;
         width: 100%;
     }
 }
