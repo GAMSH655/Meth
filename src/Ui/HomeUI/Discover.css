@@ -118,21 +118,17 @@
 .seeNone{
     display: none;
 }
-.BoxTime{
+.OuterTimerBox{
     background: rgba(189, 189, 189,0.36);    box-shadow: 0 8px 32px 0 rgba(14, 15, 18, 0.32);    backdrop-filter: blur(4px);    border-radius: 10px;    border: 1px solid rgba(255, 255, 255, 0.06);
     margin: 100px;
     width: 30%;
-    /* display: flex;
+}
+.BoxTime{
+    display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row; */
 }
-.innerTimeBox{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-}
+
 .time_Parameter{
     display: block;
     text-transform: capitalize;
@@ -151,17 +147,7 @@
     text-align: center;
     color: white;
 }
-.rs{
-    display: block;
-    text-transform: capitalize;
-    font-size: 1rem;
-}
-.dot{
-    text-align: center;
-    color:white;
-     font-size: 2rem;
-     margin-bottom:20px;
-}
+
 .MushroomTextBox{
     margin: 50px;
     padding: 30px;

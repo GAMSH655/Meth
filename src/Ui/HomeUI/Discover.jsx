@@ -106,8 +106,9 @@ const Discover = () => {
             <h3 className="magic"> magic mushrooms</h3>
            <button className="see"> <FaEye/> see</button>
            </div>
+           <div className="OuterTimerBox">
+             <p className="auction">auction starts in</p>
            <div className="BoxTime">
-            <p className="auction">auction starts in</p>
               {Object.entries(timeLeft).map(el =>{
                 const label = el [0];
                 const value = el [1]
@@ -116,6 +117,8 @@ const Discover = () => {
                 </p> 
                 </div>
               })}
+           </div>
+
            </div>
        </div>
         </div>
