@@ -78,6 +78,7 @@
         font-size: 1.2rem;
         text-transform: capitalize;
         margin: 10px; 
+        text-wrap: wrap;
     }
     .innerWEl{
        display: block; 
@@ -103,6 +104,9 @@
     }
     .fromPArent{
         margin: 25px;
+    }
+    .formDiv{
+        margin: 0px;
     }
     .formBTnREg{
         display: block;
