@@ -17,7 +17,7 @@ const Hero = () => {
          <p className="heroText">
          NFT marketplace UI created with Anima
          for Figma. Collect, buy and sell art from
-        more than 20k NFT artists.
+         more than 20k NFT artists.
          </p>
            <div className="buttonCont">
            <button className="get_Started_Btn"> <FaRocket className='Rocket'/> get started </button>

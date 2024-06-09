@@ -171,4 +171,11 @@
     margin: 10px;
     border-radius: 25px;
 }
+.formTtile{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    color: white;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
 }
