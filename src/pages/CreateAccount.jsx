@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "../pages/Create.css"
 import Headers from '../Components/Headers'
 import Footer from "../Components/Footer"
@@ -73,7 +73,7 @@ const CreateAccount = () => {
                 </div>
                 {errors.password && <p className='error'>{errors.password}</p>}
                
-                <div>
+                
                 <div className="Form1">
                   <FaLock className='fromIcon'/>
                   <input type="password" 
@@ -83,7 +83,6 @@ const CreateAccount = () => {
                   onChange={handleChange} />
                 </div>
                 {errors.password && <p className='error'>{errors.password}</p>}
-                </div>
                
                 <button className="formBTnREg" onClick={handleClick}> create account</button> 
               </form>
