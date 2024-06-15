@@ -3,37 +3,65 @@ import "../pages/Create.css"
 import Headers from '../Components/Headers'
 import Footer from "../Components/Footer"
 import FormImg from "../assets/Double_Astro.png"
-import { FaEnvelope, FaLock, FaUser } from 'react-icons/fa'
+import { FaEnvelope, FaLock, FaUser , FaTimes} from 'react-icons/fa'
 import { useState } from 'react'
+import Cancel from "../assets/Cancel.avif"
 import validation from '../Components/validation'
 const CreateAccount = () => {
-  const [values , setValues] = useState({
-    username: "",
+  const [formValues,setFormValues] = useState({
+    firstname:"",
+    lastname:"",
     mail:"",
-    password:"",
-    confirmpassword:" "
-  })
-  const handleClick=(event)=>{
-    event.preventDefault();
-    setErrors(validation(values))
-  }
-  const [errors , setErrors]= useState({})
-  const handleChange = (event)=>{
-   setValues({
-    ...values , [event.target.name]:event.target.value
+    password:""
    })
-   console.log(setValues)
-  }
+   const [formErrors,setformErrors] = useState({})
+   const [isSubmitted , setisSubmitted ] = useState(false)
+   const inputHandler =(e)=>{
+    const {name , value} = e.target
+    setFormValues({...formValues , [name]:value} )
+    console.log(formValues);
+   }
+    const handleSumbit =(e)=>{
+      e.preventDefault();
+     setformErrors(Validate(formValues)); 
+     setisSubmitted(true)
+    }
+    useEffect(()=>{
+      console.log(formErrors)
+      if(Object.keys(formErrors).length === 0  && isSubmitted){
+        console.log(formValues)
+      }
+    },[formErrors])
+    const Validate = (values) =>{
+      let error ={}
+      if(!values.username){
+          error.username="first name required"
+      }
+      if(!values.mail){
+          error.mail="mail ia required"
+      }
+      if(!values.password){
+          error.password="passwords is required"
+      }else if (values.password.length < 5){
+          error.password="password  must be more than 5🩸 "
+      }
+      if(!values.confirmpasword){
+          error.confirmpasword="passwords is required"
+      }else if (values.confirmpasword.length < 5){
+          error.confirmpasword="pass word confirmed ✔"
+      }
+      return error
+    }
   return (
     <div>
         <Headers/>
-
+      
        <div className="flexForm">
          <img src={FormImg } alt=""  className='formImg'/>
          <div className="formDiv">
               <h3 className="create">create account</h3>
               <p className="welcome">Welcome! enter your details and start creating, collecting and selling NFTs.  </p>
-              <form action="" className='fromPArent'>
+              <form action="" className='fromPArent' onSubmit={handleSumbit}>
                
                  <div>
                  <div className="Form1">
@@ -42,25 +70,24 @@ const CreateAccount = () => {
                  placeholder='username' 
                  className='RegForm' 
                  name='username' 
-                 value={values.username}
-                  onChange={handleChange}/>
+                 value={formValues.username}
+                 onChange={inputHandler }
+                  />
                 </div>
-                {errors.username && <p  className='error'>{errors.username}</p>}
+                <p className="error">{formErrors.username}  </p>
+
                  </div>
                 
-                
-               <div>
                <div className="Form1">
                   <FaEnvelope className='fromIcon'/> 
                   <input type="mail"
                    placeholder='mail' 
                    className='RegForm' 
                    name='mail'
-                   onChange={handleChange} 
-                   value={values.mail}  />
+                   value={formValues.mail} 
+                   onChange={inputHandler } />
                </div>
-                {errors.email && <p className='error'>{errors.email}</p>}
-                </div>
+               <p className="error">{formErrors.mail}  </p>
                 
                 <div className="Form1">
                   <FaLock className='fromIcon'/>  
@@ -68,28 +95,33 @@ const CreateAccount = () => {
                   placeholder=' password' 
                   className='RegForm' 
                   name='password' 
-                  values={values.password}  
-                  onChange={handleChange} />
+                  onChange={inputHandler }
+                  values={formValues.password} 
+                  />
                 </div>
-                {errors.password && <p className='error'>{errors.password}</p>}
-               
-                
+                <p className="error">{formErrors.password}  </p>
+              
                 <div className="Form1">
                   <FaLock className='fromIcon'/>
                   <input type="password" 
                   placeholder='confirm password'  
-                  className='RegForm' 
-                  values={values.password}  
-                  onChange={handleChange} />
+                  name="confirmpasword"
+                  className='RegForm'
+                  values={formValues.confirmpasword}  
+                  onChange={inputHandler }
+                 />
                 </div>
-                {errors.password && <p className='error'>{errors.password}</p>}
+                <p className="error">{formErrors.confirmpasword}  </p>
                
-                <button className="formBTnREg" onClick={handleClick}> create account</button> 
+               
+                <button className="formBTnREg" > create account</button> 
               </form>
-         
+          { Object.keys(formErrors).length === 0  && isSubmitted ? (<div className='signInSucess'> sign in successfully</div>): (<div><p className="warningText"> please fill in the empty field</p></div>)
+      }
          </div>
        </div>
        <Footer/>
+       <img src={Cancel} alt="" className='cancel'/>
     </div>
   )
 }
