@@ -121,7 +121,6 @@ const CreateAccount = () => {
          </div>
        </div>
        <Footer/>
-       <img src={Cancel} alt="" className='cancel'/>
     </div>
   )
 }
